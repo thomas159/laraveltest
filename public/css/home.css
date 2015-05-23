@@ -1,0 +1,14 @@
+/*Home*/
+.home-text{ height:auto; background-color:#ff00ff;}
+.home-box-wrap     { width:100%; height:auto; background-color:; float:left; margin-bottom:5%;box-sizing: border-box; }
+.home-header     { width:100%; height:auto; padding:0.5em; margin-bottom:1em; text-align:center; background-color:#ec2350; color:#fff; box-sizing: border-box; }
+.home-img img      { display: block; box-sizing: border-box; }
+.home-content      { width:100%; height:auto; padding:0.5em; color:#fff; box-sizing: border-box; }
+.home-content-alt     { width:100%; height:auto; text-align:center; padding:0.5em; margin-bottom:2%;color:#000; box-sizing: border-box; }
+.home-content-text-alt     { width:100%; height:auto; text-align:center; padding:0.5em; margin-bottom:2%;color:#000; box-sizing: border-box; }
+.home-readmore{width:50%; height:auto;margin: 0 auto; border:1px solid #ff00ff;padding:0.1em; text-align:center;}
+
+
+.home-header-reviews     { width:30%; height:0%; border-bottom:4px solid #2c3e50; margin: 0 auto; text-align:center;}
+.home-header-links     { width:30%; height:0%; border-bottom:4px solid #fff; margin: 0 auto; text-align:center;}
+.menu              { width:100%; height:40px; background-color:#2e3641; text-align:center; color:#fff;}

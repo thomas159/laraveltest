@@ -1,0 +1,87 @@
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 200px) {
+
+.reviews-score-underline { width:100%; height:40px;border-bottom:2px solid #e4e7e7; background-color:#f9f9f9;}
+.reviews-score-left {width:50%; height:100%; float:left;}
+.reviews-score-right{width:50%; height:100%; float:left; }
+.galimg img { width:50%; height:100px; display:block; float:left;}
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+.reviews-score-underline { width:100%; height:40px;border-bottom:2px solid #e4e7e7; background-color:#f9f9f9;}
+.reviews-score-left {width:30%; height:100%; float:left;}
+.reviews-score-right{width:70%; height:100%; float:left;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .reviews-score-underline { width:100%; height:40px;border-bottom:2px solid #e4e7e7; background-color:#f9f9f9;}
+.reviews-score-left {width:30%; height:100%; float:left;}
+.reviews-score-right{width:70%; height:100%; float:left;}
+.galimg img { width:20%; height:200px; display:block; float:left;}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+/*review*/
+.reviews-header     { width: 100%; margin: 0 auto; background-color:#EC2350; color:#fff; height:auto; text-align:center; border-bottom: 1px solid #e4e7e7; border-top: 1px solid #e4e7e7;}
+.reviews-underline { width:60%; border-bottom:2px solid #000; background-color:#f9f9f9;}
+/*reviews-top10*/
+.reviews-top10-wrap{display:flex;  padding:0.5em; background-color:#fff;}
+.reviews-top10-img{width:100%; height:auto;}
+.reviews-top10-top10{width:100%; height:auto;}
+/*reviews main*/
+.reviews-main-content { display:flex; flex-grow:1;  overflow:hidden; padding:1em; background-color:#fff; }
+.reviews-main-header{ padding-left:1em; height:40px; line-height:40px; width:100%; height:auto; background-color:#fff;box-sizing: border-box;}
+.reviews-main-price{ padding-left:1em; width:100%; height:auto; background-color:#fff;box-sizing: border-box;}
+.reviews-main-img img { width:100%;  background-color:#ff00ff;box-sizing: border-box;}
+.reviews-readmore{ width:100%; height:auto;margin: 0 auto;  padding:1em; border-top: solid 2px #ff00ff; background-color:#fff;  text-align:center;}
+/*Reviews Side Rank*/
+.reviews-side-wrap-outer{ width:100%; height:auto; margin-bottom:2%; border:0px solid #ccc; background-color:#fff;box-sizing: border-box;}
+.reviews-side-wrap{ width:100%;  margin-bottom:0%;height:auto; overflow:hidden; border-bottom:1px solid #ccc; }
+.reviews-side-col1{ width:10%;padding:2% 0% 2% 0%; text-align:center; background-color:#EC2350; color:#fff; float:left; padding-bottom: 500px;margin-bottom: -500px;}
+.reviews-side-col2{width:30%; height:auto;padding:2% 0% 2% 2%; float:left;}
+.reviews-side-col3{width:52%; height:auto;padding:0 2% 0 2%;float:left;}
+.reviews-side-header{width:100%; height:auto;  padding:0.2em; padding-left:0.5em;   background-color: #fff;  box-sizing: border-box;}
+.reviews-side-rated{width:100%; height:auto; padding:0.2em; padding-left:0.5em;   background-color: #fff;  bthumbox-sizing: border-box;}
+.reviews-side-rank{width:100%; height:auto; margin-bottom:5%; margin-top:5%; padding:0.2em; padding-left:0.5em; background-color: #ec2e50; color:#fff; box-sizing: border-box;}
+.reviews-side-img{ width:100%; height:auto;  background-color:#fff;}
+.reviews-photos-wrap{width:100%; height:auto;}
+.reviews-photos-thumb{width:20%; height:auto; float:left;}
+/*Reviews side
+.reviews-side-wrap-outer{ width:100%; height:auto; margin-top:5%; border:1px solid #ccc; ;background-color:#fff;box-sizing: border-box;}
+.reviews-side-header{width:100%; height:auto;  padding:0.2em; padding-left:0.5em;   background-color: #fff;  box-sizing: border-box;}
+.reviews-side-rated{width:100%; height:auto; padding:0.2em; padding-left:0.5em;   background-color: #fff;  box-sizing: border-box;}
+.reviews-side-rank{width:100%; height:auto; margin-bottom:5%; margin-top:5%; padding:0.2em; padding-left:0.5em; background-color: #ec2e50; color:#fff; box-sizing: border-box;}
+.reviews-side-wrap{ width:100%; height:auto; background-color:#fff; border:1px solid #ccc; box-sizing: border-box;}
+.reviews-side-img{ width:100%; height:auto;  background-color:#fff;box-sizing: border-box;}
+*/
+
+/*Reviews Side Rank
+.reviews-side-wrap-outer{ width:100%; height:auto; margin-top:5%; border:1px solid #ccc; background-color:#fff;box-sizing: border-box;}
+.reviews-side-wrap{ width:100%;  height:12%;  border-bottom:1px solid #ccc; }
+.reviews-side-col1{ width:10%;height:100%; text-align:center; background-color:#EC2350; color:#fff; float:left; display: flex;
+  flex-direction: column;
+  justify-content: center; }
+.reviews-side-col2{width:30%; padding:2%;height:80%;float:left;}
+.reviews-side-col3{width:52%; height:100%;float:left;}
+*/

@@ -1,0 +1,9 @@
+@extends('layouts.twoColumn')
+@section('sidebar')
+<!-- Chooses which sidebar to display -->
+
+@if(isset($reviews)) 
+	@include('partials.reviews-side')
+@elseif(isset($ids))
+	@include('partials.reviews-side-menu')
+@endif

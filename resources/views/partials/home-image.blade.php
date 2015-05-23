@@ -1,0 +1,1 @@
+<img class="u-full-width-home" src="images/stock/berlin_skyline.png">

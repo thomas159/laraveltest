@@ -1,0 +1,18 @@
+#fluid {
+	float: left;
+	width: 100%;
+	height:600px;
+	margin-right: -250px; /* The size of the fixed block. */
+	background-color:#000;
+	}
+#inner-block {
+	margin-right: 250px; /* The size of the fixed block. */
+	height:600px;
+	background-color:#ff00ff;
+	}
+#fixed-width {
+	float: left;
+	width: 250px; /* The size of the fixed block. */
+	height:600px;
+	background-color:#ec2350;
+	}
